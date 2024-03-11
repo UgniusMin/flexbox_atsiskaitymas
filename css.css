@@ -1,0 +1,159 @@
+.mazas {
+    width: 50px;
+    height: 50px;
+    position: static;
+}
+
+.prie_Logo {
+    margin-left: 15px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: right;
+    margin-left: 1440px;
+    gap: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: 3px solid black;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+body {
+    background-color: cadetblue;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+    background-image: url("https://marketplace.canva.com/EAE93oDu61A/1/0/1600w/canva-purple-blue-neon-gaming-desktop-wallpaper-PWYZmwkPtUg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_text {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    opacity: 1;
+}
+
+.small {
+    width: 100px;
+    height: 100px;
+}
+
+.article_one_title {
+    display: flex;
+    justify-content: center;
+}
+
+.img_kaireje {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 80px;
+    height: 80px;
+    gap: 10px;
+}
+
+.img_desineje {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 80px;
+    height: 80px;
+    gap: 10px;
+}
+
+.text_kaireje {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 90px;
+}
+
+.text_desineje {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+
+.article_two_title {
+    display: flex;
+    justify-content: center;
+}
+
+.article_two_one_img {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 183px;
+    object-fit: cover;
+    gap: 5px;
+}
+
+.article_two_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 100px;
+}
+
+.article_two_two_img {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 184px;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.article_two_two_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.article_three_title {
+    display: flex;
+    justify-content: center;
+}
+
+.article_three_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://variety.com/wp-content/uploads/2022/05/Horizon.jpg?w=1000);
+    width: 100%;
+}
+
+.article_three_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 820px;
+}
